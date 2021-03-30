@@ -5,3 +5,14 @@ body {
 h1 {
     font: normal 25pt Arial;
 }
+#container {
+    display: inline-block;
+    position: relative;
+}
+
+#container #num {
+    position: absolute;
+    top: 95px;
+    right: 290px;
+    font-size: 40px;
+    color: black;
