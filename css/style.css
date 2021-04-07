@@ -1,42 +1,119 @@
 body {
     background-color: #999999;
-    text-align: center;
 }
 
 h1 {
-    font: normal 25pt Arial;
-}
-
-div {
-    align-items: center;
+    font: normal 25pt Arial, Helvetica, sans-serif;
 }
 
 .container {
-    width: 100%;
-    height: 470px;
+
+}
+
+.calculator {
     position: relative;
-    background-image: url(../images/calc-500x500.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: hidden;
+    outline:none;
+    position: absolute;
     cursor: pointer;
     width: 50px;
     height: 35px;
+    /* font-size: 0; */
 }
 
-.container #b-0
-.container #b-1
-.container #b-2
-.container #b-3
-.container #b-4
-.container #b-5
-.container #b-6
-.container #b-7
-.container #b-8
-.container #b-9
-.container #b-division
-.container #b-mult
-.container #b-minus
-.container #b-adit
+.container #b-0 {
+    top: 515px;
+    left: 170px;
+}
+.container #b-1 {
+    top: 465px;
+    left: 170px;
+}
+
+.container #b-2 {
+    top: 465px;
+    left: 230px;
+}
+
+.container #b-3 {
+    top: 465px;
+    left: 290px;
+}
+
+.container #b-4 {
+    top: 415px;
+    left: 170px;
+}
+
+.container #b-5 {
+    top: 415px;
+    left: 230px;
+}
+
+.container #b-6 {
+    top: 415px;
+    left: 290px;
+}
+
+.container #b-7 {
+    top: 370px;
+    left: 170px;
+}
+.container #b-8 {
+    top: 370px;
+    left: 230px;
+}
+.container #b-9{
+    top: 370px;
+    left: 290px;
+}
+.container #b-division {
+    top: 317px;
+    left: 359px;
+}
+.container #b-mult {
+    top: 367px;
+    left: 359px;
+}
+.container #b-minus {
+    top: 417px;
+    left: 359px;
+}
+.container #b-plus {
+    width: 50px;
+    height: 80px;
+    top: 467px;
+    left: 359px;
+}
+.container #b-dot{
+    top: 515px;
+    left: 230px;
+}
+
+.container #b-equal{
+    top: 515px;
+    left: 290px;
+}
+
+.container #b-clear {
+    top: 515px;
+    left: 110px;
+}
+
+.container #b-percent{
+    top: 370px;
+    left: 110px
+}
+
+.container #b-square {
+    top: 415px;
+    left: 110px;
+}
