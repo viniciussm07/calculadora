@@ -1,3 +1,3 @@
-#Calculator
+# Calculadora
 
-A simple project to pratice
+Calculadora em JavaScript
