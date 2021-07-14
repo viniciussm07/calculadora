@@ -7,32 +7,44 @@
     <title>Calculator</title>
 </head>
 <body>
-    <form action="" id='calcForm'>
-        <div class="container">
-            <h1>Calculator</h1>
-            <img class="calculator" src="images/calc-500x500.png" alt="calculator">
+    <h1>Calculator</h1>
+    <div class="container">
+        <div>
             <input type="text" id="screen" value=""/>
-            <input class="button" id="b-0" type="button" value="0" onclick="screenNum(0)">
-            <input class="button" id="b-1" type="button" value="1" onclick="screenNum(1)">
-            <input class="button" id="b-2" type="button" value="2" onclick="screenNum(2)">
-            <input class="button" id="b-3" type="button" value="3" onclick="screenNum(3)">
-            <input class="button" id="b-4" type="button" value="4" onclick="screenNum(4)">
-            <input class="button" id="b-5" type="button" value="5" onclick="screenNum(5)">
-            <input class="button" id="b-6" type="button" value="6" onclick="screenNum(6)">
+        </div>
+        <div id="img">
+            <img class="calculator" src="images/calc-500x500.png" alt="calculator">
+        </div>
+        <div>
+            <input class="button" id="b-division" type="button" value="/">
+        </div>
+        <div>
+            <input class="button" id="b-percent" type="button" value="%">
             <input class="button" id="b-7" type="button" value="7" onclick="screenNum(7)">
             <input class="button" id="b-8" type="button" value="8" onclick="screenNum(8)">
             <input class="button" id="b-9" type="button" value="9" onclick="screenNum(9)">
-            <input class="button" id="b-division" type="button" value="/">
             <input class="button" id="b-mult" type="button" value="*">
+        </div>
+        <div>
+            <input class="button" id="b-square" type="button" value="square">
+            <input class="button" id="b-4" type="button" value="4" onclick="screenNum(4)">
+            <input class="button" id="b-5" type="button" value="5" onclick="screenNum(5)">
+            <input class="button" id="b-6" type="button" value="6" onclick="screenNum(6)">
             <input class="button" id="b-minus" type="button" value="-">
-            <input class="button" id="b-plus" type="button" value="+">
+        </div>
+        <div>
+            <input class="button" id="b-1" type="button" value="1" onclick="screenNum(1)">
+            <input class="button" id="b-2" type="button" value="2" onclick="screenNum(2)">
+            <input class="button" id="b-3" type="button" value="3" onclick="screenNum(3)">
+        </div>
+        <div>
+            <input class="button" id="b-clear" type="button" value="clear">
+            <input class="button" id="b-0" type="button" value="0" onclick="screenNum(0)">
             <input class="button" id="b-dot" type="button" value=".">
             <input class="button" id="b-equal" type="button" value="=">
-            <input class="button" id="b-clear" type="button" value="clear">
-            <input class="button" id="b-percent" type="button" value="%">
-            <input class="button" id="b-square" type="button" value="square">
-        </div>
-    </form>
+            <input class="button" id="b-plus" type="button" value="+">
+        </div> 
+    </div>
     <script type="text/javascript" src="js/calculator.js"></script>
 </body>
 </html>
