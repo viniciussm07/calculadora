@@ -15,14 +15,13 @@ h1 {
     margin: auto;
 }
 
-.calculator {
+.img {
     position: relative;
-    background-repeat: no-repeat;
-    background-position: center center;
+    bottom: 50px;
 }
 
 .button {
-    background-color: Transparent;
+    /*background-color: Transparent;*/
     background-repeat:no-repeat;
     border: none;
     /* overflow: hidden; */
@@ -34,13 +33,21 @@ h1 {
     /* font-size: 0; */
 }
 
+.all-buttons{
+    position: relative; 
+    bottom: 300px;
+}
+
 #screen {
+    background-color: rgb(42, 56, 33);
+    position: relative;
     font-family: fantasy;
     font-size: 30px;
     text-align: right;
     outline:none;
-    width: 220px;
-    height: 50px;
+    width: 255px;
+    height: 54px;
+    bottom: -96px;
 }
 
 #b-0 {
